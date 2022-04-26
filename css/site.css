@@ -1,0 +1,222 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: black;
+    width: 200px;
+    font-size:17px;
+    margin-left: 8.3333% !important;
+    
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+nav{
+    font-size:15px;
+}
+
+#topheader .navbar-nav li > a {
+    text-transform: capitalize;
+    color: #333;
+    transition: background-color .2s, color .2s;
+}
+
+li .a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#topheader .navbar-nav li.active > a {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: grey;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    margin:0;
+    width:100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    padding:0;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    font-size:18px;
+    font-family:Calibri;
+    color:grey;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding:10px;
+}
+
+p{
+    font-family:Verdana;
+}
+
+figure {
+    display: inline-block;
+}
+
+.aGroup a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.inline {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: -150px;
+}
+
+.upload-box {
+    margin-left: 130px;
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.upload-image {
+    border: 2px dashed rgb(185,185,185);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-image img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+    max-height: 500px;
+}
+
+#upload-input, #submit {
+    display: none;
+}
+
+.upload-label, #submit {
+    background-color: #2D56B3;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: table;
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.upload-label:hover, button:hover {
+    background-color: #407BFF;
+}
+.inline a {
+    margin-left: 50px;
+}
+
+textarea {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 250px;
+    height: 150px;
+    transition: all 0.2s;
+}
+
+h2 {
+    text-align: center;
+    color:black;
+    margin-left:50px;
+}
+.main {
+    float: left;
+    margin-left: 225px;
+}
+
+figure {
+    float: left;
+    text-align: center;
+}
+
+.main img {
+    margin: 10px 20px 10px 30px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    margin: 0px 20px 10px 0px;
+}
